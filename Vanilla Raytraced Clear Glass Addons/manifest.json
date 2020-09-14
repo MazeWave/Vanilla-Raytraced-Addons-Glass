@@ -1,0 +1,20 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Vanilla Raytraced Glass Addons",
+        "description": "Vanilla §aRaytraced §fGlass Addons add Clear Glass to your world. This Addons can be helpful with modernistic build",
+        "version": [1, 0, 0],
+        "uuid": "c6c4339c-89c5-4595-ad5a-47a7f2700a88",
+		"min_engine_version": [1, 15, 0]
+    },
+    "modules": [
+        {
+            "version": [1, 0, 0],
+            "type": "resources",
+            "uuid": "20e12d2d-cbf7-450a-a77c-5a3af0dcd8ed"
+        }
+    ],
+    "capabilities" : [
+            "raytraced"
+    ]
+}
