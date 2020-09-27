@@ -1,0 +1,67 @@
+{
+	"namespace": "vrp",
+	"vrp_sidemenu": {
+		"$vrpAddon": true,
+		"modifications": [
+			{
+				"array_name": "controls",
+				"operation": "insert_back",
+				"value": [
+					{
+						"glass_button@sidemenu_button": {
+							"$toggle_view_binding_name": "glass_toggle",
+							"$glyph_texture": "textures/vrp/addons-glass/icon",
+							"$glyph_color_texture": "textures/vrp/addons-glass/icon",
+							"$button_text": "vanillaRaytraced.addons.glass",
+							"$toggle_group_forced_index": 10002
+						}
+					}
+				]
+			}
+		]
+	},
+	"vrp_content": {
+		"modifications": [
+			{
+				"array_name": "controls",
+				"operation": "insert_back",
+				"value": [
+					{
+						"glass@vrp.presentation": {
+							"$id": "glass_toggle",
+							"$icon": "textures/vrp/addons-glass/icon",
+							"$desc": "vanillaRaytraced.addons.glass.description",
+							"$text": "glass_text"
+						}
+					}
+				]
+			}
+		]
+	},
+	"glass_text": {
+		"controls": [
+			{
+				"rp@menu_text": {
+					"font_scale_factor": 1.2,
+					"text": "vanillaRaytraced.addons.glass.by"
+				}
+			},
+			{
+				"rp_by@menu_text": {
+					"text": "/§dMaze§5Wave\n\n"
+				}
+			},
+			{
+				"changes_title@menu_text": {
+					"font_scale_factor": 1.2,
+					"text": "vanillaRaytraced.addons.glass.changes"
+				}
+			},
+			{
+				"changes@vrp.qa_answer": {
+					"text": "vanillaRaytraced.addons.glass.changes.1.0"
+				}
+			}
+		]
+	}
+}
