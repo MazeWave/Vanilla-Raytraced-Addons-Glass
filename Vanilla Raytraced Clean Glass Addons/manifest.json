@@ -2,7 +2,7 @@
     "format_version": 2,
     "header": {
         "name": "Clean Glass Addon for Vanilla Raytraced",
-        "description": "Clean Glass Addon for Vanilla §2Raytraced§r makes the glass completely transparent",
+        "description": "Clean Glass Addon for Vanilla §aRaytraced§r makes the glass completely transparent",
         "version": [1, 0, 0],
         "uuid": "c6c4339c-89c5-4595-ad5a-47a7f2700a88",
 		"min_engine_version": [1, 15, 0]

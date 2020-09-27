@@ -1,5 +1,7 @@
 vanillaRaytraced.addons.glass=Verre transparent
 vanillaRaytraced.addons.glass.description=Le module verre transparent pour Vanilla §2Raytraced§r rend le verre totalement transparent. Cet addon peut s'avérer utile avec des constructions modernes.
 vanillaRaytraced.addons.glass.by=Créé par
+vanillaRaytraced.addons.glass.license.title=Licence
+vanillaRaytraced.addons.glass.license=BY-NC-SA §7(voir l'onglet §oLicence§r§7)
 vanillaRaytraced.addons.glass.changes=Journal des modifications
-vanillaRaytraced.addons.glass.changes.1.0=1.0 (02/09/2020): Version initiale
+vanillaRaytraced.addons.glass.changes.1.0=1.0 (27/09/2020): Version initiale
