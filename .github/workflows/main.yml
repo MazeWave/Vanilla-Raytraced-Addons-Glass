@@ -20,7 +20,7 @@ jobs:
           ENDPOINT: https://api.github.com/repos/MazeWave/Vanilla-Raytraced-Addons-Glass/releases/${{ steps.latest_release_info.outputs.id }}
               
       - name: Zip
-        run: zip -r "Vanilla.Raytraced.Clear-Glass.Addons.${{ steps.latest_release_info.outputs.tag_name }}.mcpack" "Vanilla Raytraced Clear Glass Addons"
+        run: zip -r "Vanilla.Raytraced.Clean-Glass.Addons.${{ steps.latest_release_info.outputs.tag_name }}.mcpack" "Vanilla Raytraced Clean Glass Addons"
       
       - name: Upload to Github
         id: upload-release-asset 
@@ -29,6 +29,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.latest_release_info.outputs.upload_url }}
-          asset_path: Vanilla.Raytraced.Clear-Glass.Addons.${{ steps.latest_release_info.outputs.tag_name }}.mcpack
-          asset_name:  Vanilla.Raytraced.Clear-Glass.Addons.${{ steps.latest_release_info.outputs.tag_name }}.mcpack
+          asset_path: Vanilla.Raytraced.Clean-Glass.Addons.${{ steps.latest_release_info.outputs.tag_name }}.mcpack
+          asset_name:  Vanilla.Raytraced.Clean-Glass.Addons.${{ steps.latest_release_info.outputs.tag_name }}.mcpack
           asset_content_type: application/zip

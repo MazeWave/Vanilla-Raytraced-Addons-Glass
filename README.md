@@ -5,5 +5,5 @@
   <a href="https://github.com/MazeWave/Vanilla-Raytraced-Addons-Glass/releases"><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/MazeWave/Vanilla-Raytraced-Addons-Glass/total"></a>
 </p>
 
-**Clear Glass Addon for [Vanilla Raytraced](https://github.com/MazeWave/Vanilla-Raytraced)** add Clear Glass to your world.  
-This Addons can be helpful with modernistic build.
+**Clean Glass Addon for [Vanilla Raytraced](https://github.com/MazeWave/Vanilla-Raytraced)** makes the glass completely transparent.  
+This addon could be helpful with modernistic build.
