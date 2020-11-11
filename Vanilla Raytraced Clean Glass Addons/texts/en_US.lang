@@ -5,3 +5,4 @@ vanillaRaytraced.addons.glass.license.title=License
 vanillaRaytraced.addons.glass.license=BY-NC-SA §8(see the §oLicense§r§8 tab)
 vanillaRaytraced.addons.glass.changes=Changelog
 vanillaRaytraced.addons.glass.changes.1.0=1.0 (2020-09-27): Initial release
+vanillaRaytraced.addons.glass.changes.1.1=1.1 (2020-11-11): Fixed default glass transparency and added compatibility with latest beta
